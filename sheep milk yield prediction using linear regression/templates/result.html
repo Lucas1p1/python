@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheep Milk Yield Prediction Result</title>
+</head>
+<body>
+    <h1>Sheep Milk Yield Prediction Result</h1>
+    <p>Predicted Milk Yield: {{ prediction }}</p>
+    
+    <h2>SHAP Values</h2>
+    <p>Age: {{ shap_values[0] }}</p>
+    <p>D1WT: {{ shap_values[1] }}</p>
+    <p>Breed: {{ shap_values[2] }}</p>
+</body>
+</html>

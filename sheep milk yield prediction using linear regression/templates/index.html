@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheep Milk Yield Prediction</title>
+</head>
+<body>
+    <h1>Sheep Milk Yield Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="age">Age:</label>
+        <input type="number" name="age" required>
+        <br>
+        <label for="d1wt">D1WT:</label>
+        <input type="number" name="d1wt" required>
+        <br>
+        <label for="breed">Breed:</label>
+        <input type="number" name="breed" required>
+        <br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
